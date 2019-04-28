@@ -5,7 +5,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444;
+  color: #ddd;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 0px;
@@ -238,7 +238,11 @@ strong {
 }
 
 .mb-60 {
-  margin-bottom: 60px
+  margin: 60px 0
+}
+
+.mb-150 {
+  margin: 150px 0
 }
 
 .space-right {
@@ -368,9 +372,13 @@ strong {
 }
 
 .header-style-3 {
-  background: url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;
+  background: url(/assets/images/bg/mountain-bar.jpg) no-repeat left center;
   background-size: cover;
-  padding-top: 80px
+}
+
+.header-style-3-color {
+  background: linear-gradient(0deg,rgba(35,41,53,0.8),rgba(35, 41, 53,0.9));
+  padding-top: 10px
 }
 
 .header-style-3 .hero-content-v2 h3 {
@@ -1111,14 +1119,14 @@ footer .menu li a:hover {
   color: #ccc !important;
   display: flex;
   font-weight: 700;
-  padding: 20px 15px
+  padding-right: 15px
 }
 
 .navbar-brand #logo {
   font-family: qbicle;
   font-size: 4em;
   line-height: 1em;
-  padding: 0px 15px
+  padding-right: 15px
 }
 
 .navbar-brand #logo-text {
@@ -1152,7 +1160,7 @@ footer .menu li a:hover {
 .navbar {
   padding: 0
 }
-
+/*
 .dropdown-menu {
   padding: 10px 0px;
   border: 0;
@@ -1169,7 +1177,7 @@ footer .menu li a:hover {
   background: #EB586F;
   color: #fff
 }
-
+*/
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #EB586F
 }
@@ -2440,15 +2448,20 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .blog-post {
+  background: #f2f2f2;
   padding: 30px
 }
 
 .blog-post h3 {
-  font-size: 18px
+  font-size: 22px
 }
 
 .blog-post h3 a {
-  color: #444
+  color: #232935
+}
+
+.blog-post p {
+  color: #232935
 }
 
 .blog-post h3 a:hover {
@@ -2456,6 +2469,9 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .about-sidebar-widget, .categories-sidebar-widget, .blog-posts-widget {
+  background: #f2f2f2;
+  border: solid #2329351a 1px;
+  border-radius: 0.1em;
   padding: 15px
 }
 
@@ -2506,7 +2522,8 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .blog-post-small p {
-  font-size: 12px
+  font-size: 12px;
+  color: #ddd
 }
 
 .blog-post-small .post-date {
@@ -2567,7 +2584,7 @@ nav#menu span.fa.fa-bars:hover {
 #counter {
   background-image: url(/assets/images/about/testimonial-bg.jpg);
   background-size: cover;
-  padding: 60px 0
+  padding: 40px 0 0 0
 }
 
 .count-one {
@@ -2594,7 +2611,7 @@ nav#menu span.fa.fa-bars:hover {
 
 .count-one .count-title {
   color: #fff;
-  font-size: 14px
+  font-size: 18px
 }
 
 .width25-divider {
@@ -4447,4 +4464,114 @@ img {
   padding-top: 50px;
   text-transform: uppercase;
   margin: 0 0 20px 0
+}
+
+
+
+.dropdown,
+.dropup {
+    position: relative
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-left: .3em solid transparent
+}
+
+.dropdown-toggle:empty::after {
+    margin-left: 0
+}
+
+.dropup .dropdown-menu {
+    margin-top: 0;
+    margin-bottom: .125rem
+}
+
+.dropup .dropdown-toggle::after {
+    border-top: 0;
+    border-bottom: .3em solid
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: rgba(255,255,255,0.7);;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem
+}
+
+.dropdown-divider {
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background: 0 0;
+    border: 0
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff
+}
+
+.dropdown-item.disabled,
+.dropdown-item:disabled {
+    color: #868e96;
+    background-color: transparent
+}
+
+.show>a {
+    outline: 0
+}
+
+.dropdown-menu.show {
+    display: block
+}
+
+.dropdown-header {
+    display: block;
+    padding: .5rem 1.5rem;
+    margin-bottom: 0;
+    font-size: .875rem;
+    color: #868e96;
+    white-space: nowrap
 }
