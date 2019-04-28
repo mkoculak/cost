@@ -8,7 +8,7 @@ markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
 url: http://locahost:4000
-baseurl: "{{BASE_PATH}}"
+baseurl: ""
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
@@ -75,7 +75,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://mkoculak.github.io/cost
+  BASE_PATH : https://mkoculak.github.io/cost
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
