@@ -311,7 +311,7 @@ strong {
 }
 
 #headers {
-  background-image: url(/assets/images/bg/arch1.jpg);
+  background-image: url(../images/bg/arch1.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -372,7 +372,7 @@ strong {
 }
 
 .header-style-3 {
-  background: url(/assets/images/bg/mountain-bar.jpg) no-repeat left center;
+  background: url(../images/bg/mountain-bar.jpg) no-repeat left center;
   background-size: cover;
 }
 
@@ -1251,14 +1251,14 @@ footer .menu li a:hover {
 }
 
 .nav-bg-default {
-  background: url(/assets/images/nav-bg-default.jpg);
+  background: url(../images/nav-bg-default.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center
 }
 
 .nav-bg-inverse {
-  background: url(/assets/images/nav-bg-inverse.jpg);
+  background: url(../images/nav-bg-inverse.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center
@@ -2022,7 +2022,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 .single-testimonial-area {
-  background-image: url(/assets/images/about/testimonial-bg.jpg);
+  background-image: url(../images/about/testimonial-bg.jpg);
   background-size: cover;
   padding: 60px 0
 }
@@ -2582,7 +2582,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #counter {
-  background-image: url(/assets/images/about/testimonial-bg.jpg);
+  background-image: url(../images/about/testimonial-bg.jpg);
   background-size: cover;
   padding: 40px 0 0 0
 }
@@ -2640,7 +2640,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #dark-slider .slide1 {
-  background-image: url(/assets/images/dark-bg-image.jpg);
+  background-image: url(../images/dark-bg-image.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -2648,7 +2648,7 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #dark-slider .slide2 {
-  background-image: url(/assets/images/dark-bg-image.jpg);
+  background-image: url(../images/dark-bg-image.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
