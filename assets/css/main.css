@@ -311,7 +311,7 @@ strong {
 }
 
 #headers {
-  background-image: url({{BASE_PATH}}/assets/images/bg/arch1.jpg);
+  background-image: url(/assets/images/bg/arch1.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
