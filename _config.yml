@@ -8,36 +8,36 @@ markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
 url: http://locahost:4000
-baseurl: "/cost"
+baseurl: ""
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot: 2973388149
-data-ad-client: ca-pub-9204963049240271
-google_ad_client: ca-pub-9204963049240271
+data-ad-slot:
+data-ad-client:
+google_ad_client:
 
 post_limit: 5
 
 
-title : Helium Jekyll
-tagline: Bootstrap 4 UI kit for jekyll
+title : NeurArchCon
+tagline: Site for COST Action CA18106
 author :
-  name : Antonio Trento
-  site: https://lantoniotrento.github.io
-  description : I&#39;m a web master interested in communication applied to web marketing.
-  image : social-image.png
-  email : lantoniotrento@gmail.com
-  github : antoniotrento
-  twitter : lantoniotrento
-  facebook: lantoniotrento
-  linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
+  name : Marcin Koculak
+  site: https://mkoculak.github.io
+  description : Ph.D. student interested in Cognitive Neuroscience of Consciousness.
+  image :
+  email :
+  github :
+  twitter :
+  facebook:
+  linkedin:
+  instagram:
+  pinterest:
   feedburner :
 
-twitter_username: lantoniotrento
+twitter_username:
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
@@ -121,7 +121,7 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-94080000-1'
+        tracking_id : ''
     getclicky :
       site_id :
     mixpanel :
