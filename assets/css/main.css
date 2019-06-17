@@ -4587,4 +4587,10 @@ img {
   margin-top: 20px;
 }
 
-.
+#footnote {
+  margin-top: 40px;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-size: 10px;
+  line-height: 14px;
+}
